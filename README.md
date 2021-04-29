@@ -1,0 +1,2 @@
+# basicCmake
+Basic cmake file
