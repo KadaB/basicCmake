@@ -19,7 +19,7 @@ add_executable(${PROJECT_NAME} ${source_files})
 #include_directories("include")  
 
 # link target libraries, possibly ${<LIBNAME>_INCLUDE_DIR} for <LIBNAME> if :: notation not valid
-# (Linux: <LIBNAME> for -l<LIBNAME> with no find_package or pkg_config --libs --cflags)
+# (Linux: <LIBNAME> for -l<LIBNAME> with no find_package or pkg-config --libs --cflags)
 target_link_libraries(${PROJECT_NAME} OpenGL::GL GLEW::GLEW)
 
 # copy resource files into build folder:
